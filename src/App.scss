@@ -1,0 +1,147 @@
+
+$color-one: #EAEAEA;
+$color-two: #FF2E63;
+$color-three: #252A34;
+$color-four: #08D9D6;
+
+
+.navbar {
+  color: $color-four;
+  height: 40px;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar-item {
+  display: inline;
+  float: left;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.nav-link {
+  display: block;
+  padding: 8px;
+  background-color: $color-one;
+}
+
+.app-title {
+  color: $color-three;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.to-do-input-field {
+  width: 30%;
+  height: 1.25rem;
+  margin: 10px 30px;
+  text-align: center;
+
+}
+
+.to-do-input-field:hover {
+  border: solid $color-two 2px;
+}
+.to-do-input-field:focus {
+  outline-color: $color-two;
+}
+
+.add-todo-form {
+  text-align: center;
+}
+
+.form-button {
+  margin-right: 10px;
+  border-radius: 10%;
+  height: 1.75rem;
+
+}
+
+.form-button:hover {
+  border: solid $color-two;
+}
+
+.add-item-button {
+  background-color: $color-four;
+  color: $color-three;
+  font-weight: 700;
+  
+}
+
+.clear-list-button {
+  background-color: $color-four;
+  color: $color-three;
+  font-weight: 900;
+}
+
+.todo-list-title {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: $color-three;
+  text-decoration: underline;
+
+}
+
+.completed-todo-list {
+  list-style-type: none;
+
+}
+.completed-todo-item {
+  text-align: center;
+  text-decoration: line-through;
+  font-size: 1.5rem;
+  color: $color-three;
+
+}
+
+
+.todo-buttons {
+  border: none;
+  background-color: $color-one;
+  height: 2rem;
+  width: 2rem;
+  margin-right: 5%;
+}
+.complete-todo-button {
+  color: green;
+}
+.complete-todo-button:hover {
+  color: $color-four;
+  
+}
+.delete-todo-button {
+  color: red;
+}
+.delete-todo-button:hover {
+  color: $color-two;
+}
+
+.todo-list-item {
+  font-size: 1.5rem;
+  color: $color-three;
+}
+
+.todo-list-item:hover {
+  font-size: 2rem; 
+ 
+}
+.todo-list-item-text {
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.completed-todo-list {
+  text-transform: capitalize;
+  text-align: center;
+}
+.todo-list {
+  margin-left:25%;
+  list-style-type: none;
+  text-transform: capitalize;
+  align-items: center;
+}
