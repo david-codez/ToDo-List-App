@@ -2,9 +2,10 @@ import React from 'react'
 import {Container} from 'react-bootstrap'
 
 const CompletedToDos = (props) => {
-    console.log(props)
+    
+    // completed tasks are passed in through props
     let completed = props.completedToDos
-    console.log(completed)
+
   return (
     
     <div>

@@ -3,17 +3,21 @@ import {GiCancel} from 'react-icons/gi'
 import {AiOutlineCheckCircle} from 'react-icons/ai'
 
 const ToDoListItem = (props) => {
+  //todo is passed in through props
   let todo = props.todo
  
-
+  //calls remove todo function from app.js
   const handleDeleteToDo = () => {
     props.functions.removeToDo(todo.todoId)
 
   }
 
+  //calls complete todo function from app.js
   const handleCompleteToDo = () => {
     props.functions.completeToDo(todo.todoId)
   }
+
+  
   return (
     
        
